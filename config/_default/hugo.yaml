@@ -1,3 +1,17 @@
-baseURL: "http://example.org"
-languageCode: "en"
-title: "title"
+baseURL: "https://www.jedrasiak.eu"
+
+cleanDestinationDir: true
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: true
+disableHugoGeneratorInject: true
+enableMissingTranslationPlaceholders: true
+removePathAccents: true
+
+languages:
+  en:
+    weight: 1
+    title: "lukasz jedrasiak"
+
+  pl:
+    weight: 2
+    title: "łukasz jędrasiak"
