@@ -1,10 +1,118 @@
+:root {
+    --svarozyc--black-95: #0D0D0D;
+    --svarozyc--black-90: #1A1A1A;
+    --svarozyc--black-75: #404040;
+    --svarozyc--black-65: #595959;
+    --svarozyc--white-65: #A6A6A6;
+    --svarozyc--white-75: #BFBFBF;
+    --svarozyc--white-90: #E6E6E6;
+    --svarozyc--white-95: #F2F2F2;
 
+    --svarozyc--red: #E64C4C;
+    --svarozyc--yellow: #C06E1B;
+    --svarozyc--olive: #868613;
+    --svarozyc--green: #549315;
+    --svarozyc--cyan: #159393;
+    --svarozyc--blue: #2985E0;
+    --svarozyc--violet: #7575EB;
+    --svarozyc--magenta: #A663E9;
+
+    --svarozyc--red-dark: #D61F1F;
+    --svarozyc--yellow-dark: #A15C17;
+    --svarozyc--olive-dark: #707010;
+    --svarozyc--green-dark: #457811;
+    --svarozyc--cyan-dark: #117878;
+    --svarozyc--blue-dark: #1C70C4;
+    --svarozyc--violet-dark: #5A5AE7;
+    --svarozyc--magenta-dark: #913FE4;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
 
 body {
     font-family: system-ui, sans-serif;
-    background-color: bisque;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: var(--svarozyc--white-90);
+    background-color: var(--svarozyc--black-95);
 }
 
 h1 {
     font-family: monospace;
+}
+
+a {
+    color: var(--svarozyc--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--svarozyc--yellow);
+}
+
+svg {
+    display: block;
+}
+
+/* HEADER TOP */
+body > header {
+    background-color: var(--svarozyc--black-90);
+    padding: 1.5rem;
+    font-family: monospace;
+    
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+body > header > nav.desktop {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+    display: none;
+}
+
+body > header > nav.mobile {
+    cursor: pointer;
+}
+
+body > header > nav.mobile > div {
+    display: none;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+}
+
+body > header > nav.mobile:hover > div {
+    background-color: var(--svarozyc--black-90);
+    display: block;
+    width: 100%;
+}
+
+body > header > nav.mobile > div > div {
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+body > header > nav a {
+    color: var(--svarozyc--white-90);
+}
+
+@media screen and (min-width: 1240px) {
+    body > header > nav.mobile {
+        display: none;
+    }
+    
+    body > header > nav.desktop {
+        display: flex;
+    }
 }

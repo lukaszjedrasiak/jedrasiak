@@ -9,9 +9,45 @@ removePathAccents: true
 
 languages:
   en:
+    languageName: english
     weight: 1
     title: "lukasz jedrasiak"
+    menu:
+      main:
+      - name: "projects"
+        pageRef: /projects
+        weight: 10
+      - name: "tools"
+        pageRef: /tools
+        weight: 20
+      - name: "knowledge"
+        pageRef: /knowledge
+        weight: 30
+      - name: "newsletter"
+        pageRef: /newsletter
+        weight: 40
+      - name: "hire me"
+        pageRef: /contact
+        weight: 50
 
   pl:
+    languageName: polski
     weight: 2
     title: "łukasz jędrasiak"
+    menu:
+      main:
+      - name: "projekty"
+        pageRef: /projekty
+        weight: 10
+      - name: "narzędzia"
+        pageRef: /narzedzia
+        weight: 20
+      - name: "wiedza"
+        pageRef: /baza-wiedzy
+        weight: 30
+      - name: "newsletter"
+        pageRef: /newsletter
+        weight: 40
+      - name: "zatrudnij mnie"
+        pageRef: /kontakt
+        weight: 50
