@@ -5,6 +5,9 @@
 </head>
 <body>
     {{partial "header.html" .}}
+    <main>
+        {{partial "hero.html" .}}
+    </main>
 {{- block "main" .}}{{- end}}
 
 {{partial "debug.html" .}}

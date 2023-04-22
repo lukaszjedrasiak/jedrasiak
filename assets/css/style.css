@@ -40,13 +40,28 @@ html {
 body {
     font-family: system-ui, sans-serif;
     font-size: 1.125rem;
-    line-height: 1.5rem;
+    line-height: 1.333333;
     color: var(--svarozyc--white-90);
     background-color: var(--svarozyc--black-95);
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: monospace;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
+}
+
+h1::before,
+h1::after {
+    content: " - "
 }
 
 a {
@@ -116,3 +131,19 @@ body > header > nav a {
         display: flex;
     }
 }
+
+/* HERO */
+.hero {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.hero .subtitle {
+    font-family: monospace;
+    text-align: center;
+}
+

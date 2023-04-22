@@ -1,7 +1,4 @@
 ---
-title: "main"
+title: "lukasz jedrasiak"
+subtitle: "front-end developer • digital marketing specialist • no-code / low-code developer • maker"
 ---
-
-# main Page
-
-content
