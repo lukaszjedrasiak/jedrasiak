@@ -1,0 +1,18 @@
+{{/* $img := $.Resources.GetMatch (printf "%s.*" .Params.image )*/}}
+{{$img := .Page.Resources.GetMatch (printf "%s.%s" .Params.image.name .Params.image.extension)}}
+
+<article class="card--article">
+    <div>
+        {{with $img}}
+            <img src="{{.RelPermalink}}" height="{{$.Params.image.height}}" width="{{$.Params.image.width}}" alt="">
+        {{end}}
+    </div>
+    
+    <div>
+        <h3>{{.Params.shortTitle | default .Title}}</h3>
+        {{.Summary}}
+        <div>
+            <a href="{{.RelPermalink}}">read more ></a>
+        </div>
+    </div>
+</article>

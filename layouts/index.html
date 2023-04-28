@@ -1,3 +1,27 @@
 {{define "main"}}
+    <section class="container">
+        <h2>Projects</h2>
+        <div class="grid grid-tablet-2 grid-desktop-4">
+            {{range where site.RegularPages "Section" "projects"}}
+                {{ .Render "card--article" }}
+                {{/* $img := .Page.Resources.GetMatch .Params.image}}
+                {{with $img}}
+                    {{.RelPermalink}}
+                {{end */}}
+            {{end}}
+        </div>
+    </section>
+    
+    <section class="container">
+        <h2>Stack</h2>
+    </section>
+
+    <section class="container">
+        <h2>Articles</h2>
+    </section>
+
+    <section class="container">
+        <h2>Design manifesto</h2>
+    </section>
     {{.Content}}
 {{end}}

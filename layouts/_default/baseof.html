@@ -7,9 +7,9 @@
     {{partial "header.html" .}}
     <main>
         {{partial "hero.html" .}}
+        {{- block "main" .}}{{- end}}
     </main>
-{{- block "main" .}}{{- end}}
 
-{{partial "debug.html" .}}
+{{/*partial "debug.html" .*/}}
 </body>
 </html>
