@@ -1,4 +1,5 @@
 ---
 title: "lukasz jedrasiak"
-subtitle: "front-end developer • digital marketing specialist • no-code / low-code developer • maker"
+headtitle: "no-code / low-code ai developer"
+subtitle: "no-code / low-code ai developer • front-end developer • digital marketing specialist • maker"
 ---
