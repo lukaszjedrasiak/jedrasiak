@@ -28,8 +28,8 @@
 }
 
 /* BREAKPOINTS */
-/* tablet: 608px */
-/* desktop: 1240px */ 
+/* tablet: 766px */
+/* desktop: 1389px */ 
 
 html {
     box-sizing: border-box;
@@ -150,7 +150,7 @@ body > header > nav a {
     color: var(--svarozyc--white-90);
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1389px) {
     body > header > nav.mobile {
         display: none;
     }
@@ -180,7 +180,7 @@ body > header > nav a {
 .container {
     padding: 0 1.5rem;
     margin-bottom: 3rem;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* GRID */
@@ -189,9 +189,21 @@ body > header > nav a {
     gap: 1.5rem; 
 }
 
+@media screen and (min-width: 1px) {
+    .grid-mobile-1 {
+        grid-template-columns: 1fr;
+    }
+    .grid-mobile-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media screen and (min-width: 766px) {
     .grid-tablet-2 {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-tablet-3 {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -199,7 +211,12 @@ body > header > nav a {
     .grid-desktop-4 {
         grid-template-columns: repeat(4, 1fr);
     }
+    .grid-desktop-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
 }
+
+/* CARD--ARTICLE */
 
 .card--article {
     background-color: var(--svarozyc--black-90);
@@ -218,9 +235,14 @@ body > header > nav a {
     border-top-right-radius: 0.5rem;
     padding: 1.5rem;
     height: 15rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card--article > div:nth-child(1) > img {
+    width: 100%;
 }
 
 .card--article > div:nth-child(2) {
@@ -230,4 +252,16 @@ body > header > nav a {
 .card--article > div:nth-child(2) > div {
     display: flex;
     justify-content: end;
+}
+
+/* CARD--SINGLESVG */
+.card--singlesvg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4.5rem;
+}
+
+.card--singlesvg > img {
+    width: 100%;
 }
