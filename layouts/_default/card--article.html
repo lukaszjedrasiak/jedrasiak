@@ -2,17 +2,19 @@
 {{$img := .Page.Resources.GetMatch (printf "%s.%s" .Params.image.name .Params.image.extension)}}
 
 <article class="card--article">
-    <div>
-        {{with $img}}
+    {{with $img}}
+        <div class="image">
             <img src="{{.RelPermalink}}" height="{{$.Params.image.height}}" width="{{$.Params.image.width}}" alt="">
-        {{end}}
-    </div>
+        </div>
+    {{end}}
     
-    <div>
+    <div class="summary">
         <h3>{{.Params.shortTitle | default .Title}}</h3>
         {{.Summary}}
-        <div>
-            <a href="{{.RelPermalink}}">read more ></a>
-        </div>
+        {{if .Params.readMore}}
+            <div>
+                <a href="{{.RelPermalink}}">read more ></a>
+            </div>
+        {{end}}
     </div>
 </article>

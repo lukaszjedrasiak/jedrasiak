@@ -7,6 +7,7 @@ image:
     extension: "svg"
     height: 48
     width: 260
+readMore: true
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum a risus eu feugiat. Duis scelerisque imperdiet dui.<!--more-->
 xxx

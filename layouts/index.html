@@ -65,6 +65,11 @@
 
     <section class="container">
         <h2>Design manifesto</h2>
+        <div class="grid grid-tablet-2 grid-desktop-4">
+            {{range where .Site.RegularPages ".Params.categories" "intersect" (slice "manifesto")}}
+                {{.Render "card--article"}}
+            {{end}}
+        </div>
     </section>
     {{.Content}}
 {{end}}

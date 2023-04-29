@@ -240,7 +240,7 @@ body > header > nav a {
     border: 1px solid var(--svarozyc--black-90);
 }
 
-.card--article > div:nth-child(1) {
+.card--article > div.image {
     background-color: var(--svarozyc--black-95);
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
@@ -252,15 +252,15 @@ body > header > nav a {
     justify-content: center;
 }
 
-.card--article > div:nth-child(1) > img {
+.card--article > div.image > img {
     width: 100%;
 }
 
-.card--article > div:nth-child(2) {
+.card--article > div.summary {
     padding: 1.5rem;
 }
 
-.card--article > div:nth-child(2) > div {
+.card--article > div.summary > div {
     display: flex;
     justify-content: end;
 }
