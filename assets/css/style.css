@@ -330,3 +330,25 @@ body > header > nav a {
     }
 
 }
+
+/* FOOTER */
+footer {
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+
+footer > span {
+
+    display: inline-flex;
+    gap: 0.75rem;
+    justify-content: center;
+    border-top: 1px dashed var(--svarozyc--white-90);
+    padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+}
+
+footer a {
+    color: var(--svarozyc--white-90);
+}
