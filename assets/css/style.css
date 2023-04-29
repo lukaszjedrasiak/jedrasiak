@@ -98,7 +98,14 @@ a:hover {
 }
 
 p {
-    margin: 1.5rem 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 svg {
@@ -183,6 +190,15 @@ body > header > nav a {
     /* outline: 1px solid red; */
 }
 
+.container-4 {
+    max-width: 608px;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--svarozyc--black-90);
+    border-radius: 0.5rem;
+}
+
 /* GRID */
 .grid {
     display: grid;
@@ -224,11 +240,6 @@ body > header > nav a {
     border: 1px solid var(--svarozyc--black-90);
 }
 
-.card--article > h3,
-.card--article > p,
-.card--article > a {
-}
-
 .card--article > div:nth-child(1) {
     background-color: var(--svarozyc--black-95);
     border-top-left-radius: 0.5rem;
@@ -264,4 +275,58 @@ body > header > nav a {
 
 .card--singlesvg > img {
     width: 100%;
+}
+
+/* ROW--ARTICLE */
+.row--article {
+    background-color: var(--svarozyc--black-90);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row--article div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.row--article .tag::after {
+    content: ", "
+}
+
+.row--article .tag:last-child::after {
+    content: "";
+}
+
+.row--article .right,
+.row--article .divider {
+    display: none;
+}
+
+@media screen and (min-width: 766px) {
+    .row--article .left {
+        flex-direction: row;
+    }
+
+    .row--article .divider {
+        display: initial;
+    } 
+}
+
+@media screen and (min-width: 1389px) {
+    .row--article,
+    .row--article div {
+        flex-direction: row;
+    }
+    
+    .row--article .right {
+        display: inherit;
+    }
+    .row--article .divider {
+        display: initial;
+    }
+
 }
