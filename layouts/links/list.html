@@ -1,0 +1,9 @@
+{{define "main"}}
+    <div class="container">
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            {{range first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "link"))}}
+                {{.Render "row--article"}}
+            {{end}}
+        </div>
+    </div>
+{{end}}
