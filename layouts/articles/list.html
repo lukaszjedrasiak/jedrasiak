@@ -1,0 +1,9 @@
+{{define "main"}}
+    <div class="container">
+        <div class="grid grid-tablet-2 grid-desktop-4">
+            {{range first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "article"))}}
+                {{ .Render "card--article" }}
+            {{end}}
+        </div>
+    </div>
+{{end}}

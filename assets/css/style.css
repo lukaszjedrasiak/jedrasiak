@@ -49,6 +49,10 @@ body {
     background-color: var(--svarozyc--black-95);
 }
 
+main {
+    padding: 0 1.5rem;
+}
+
 h1,
 h2,
 h3 {
@@ -174,7 +178,6 @@ body > header > nav a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
 }
 
 .hero .subtitle {
@@ -185,7 +188,6 @@ body > header > nav a {
 /* CONTAINERS */
 
 .container {
-    padding: 0 1.5rem;
     margin-bottom: 3rem;
     /* outline: 1px solid red; */
 }
@@ -195,6 +197,7 @@ body > header > nav a {
     padding: 1.5rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3rem;
     background-color: var(--svarozyc--black-90);
     border-radius: 0.5rem;
 }

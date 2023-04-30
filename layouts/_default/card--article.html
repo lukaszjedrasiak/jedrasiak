@@ -10,7 +10,7 @@
     
     <div class="summary">
         <h3>{{.Params.shortTitle | default .Title}}</h3>
-        {{.Summary}}
+        <p>{{.Summary | plainify}}</p>
         {{if .Params.readMore}}
             <div>
                 <a href="{{.RelPermalink}}">read more ></a>
