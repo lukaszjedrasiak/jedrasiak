@@ -4,12 +4,18 @@ subtitle: "how to build the power supply system for prototyping boards"
 categories:
 - article
 tags:
-- eletronics
+- electronics
+image:
+    name: breadboard-power-supply
+    extension: svg
+    height: 72
+    width: 72
+readMore: true
 publishDate: 2020-11-11
 ---
 
 **A power supply circuit for breadboards allows for the provision of the appropriate voltage to the remaining electronic circuits being built.**
-
+<!--more-->
 The main component of the power supply circuit for breadboards is a Graetz bridge (protection against reverse connection of the DC voltage source, e.g. battery contacts) and a voltage regulator (maintaining a constant output value of the desired voltage).
 
 The described version 1.0 of the circuit is also the first electronic circuit I have built, which finds practical application. It is not perfect, but it is sufficient at the initial stage of learning electronics.
