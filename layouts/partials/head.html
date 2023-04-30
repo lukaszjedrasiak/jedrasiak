@@ -12,3 +12,9 @@
 {{else}}
     <title>{{.Title}} | {{site.Title}}</title>
 {{end}}
+
+{{if eq .Params.index false}}
+    <meta name="robots" content="noindex">
+{{else}}
+    <meta name="robots" content="all">
+{{end}}
