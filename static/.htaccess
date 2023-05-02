@@ -1,0 +1,26 @@
+#from http + non-www
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
+
+#from http + www
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+
+#from https + non-www
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
+
+ErrorDocument 404 /404/
+
+# Expires
+<IfModule LiteSpeed>
+  <FilesMatch "\.(webm|webp|css|svg|js|jpg|gif|png)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+# Redirects
+Redirect 301 /elektronika/uklad-zasilajacy-do-plytek-stykowych/ /pl/baza-wiedzy/artykuly/uklad-zasilajacy-do-plytek-stykowych/
