@@ -4,8 +4,10 @@
 
 {{$normalize := resources.Get "/css/normalize.css" | resources.Minify | resources.Fingerprint}}
 {{$style := resources.Get "/css/style.css" | resources.Minify | resources.Fingerprint}}
-<link rel="stylesheet" href="{{$normalize.Permalink}}">
-<link rel="stylesheet" href="{{$style.Permalink}}">
+{{$lightbox := resources.Get "/css/lightbox.min.css" | resources.Minify | resources.Fingerprint}}
+<link rel="stylesheet" href="{{$normalize.RelPermalink}}">
+<link rel="stylesheet" href="{{$style.RelPermalink}}">
+<link rel="stylesheet" href="{{$lightbox.RelPermalink}}">
 
 {{if .Params.headtitle}}
     <title>{{.Params.headtitle}} | {{site.Title}}</title>

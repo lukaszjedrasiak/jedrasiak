@@ -1,0 +1,11 @@
+{{$path := $.Get "src"}}
+{{$imgbig := .Page.Resources.Get $path}}
+{{$imgsmall := $imgbig.Resize "512x"}}
+{{$caption := .Get "caption"}}
+{{$title := .Page.Title}}
+<figure>
+    <a href="{{$imgbig.RelPermalink}}" data-lightbox="{{$title}}" data-title="{{$caption}}">
+        <img src="{{$imgsmall.RelPermalink}}" alt="{{.Get "caption"}}">
+    </a>
+    <figcaption>{{$caption}}</figcaption>
+</figure>

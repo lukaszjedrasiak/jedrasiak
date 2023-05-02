@@ -1,0 +1,5 @@
+{{$jslightbox := resources.GetMatch "/js/lightbox-plus-jquery.min.js" | resources.Minify | resources.Fingerprint}}
+
+<div>
+    <script src="{{$jslightbox.RelPermalink}}"></script>
+</div>
