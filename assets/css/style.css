@@ -122,6 +122,16 @@ svg {
     display: block;
 }
 
+ol,
+ul {
+    margin: 1.5rem 0;
+}
+
+article > ol:last-child,
+article > ul:last-child {
+    margin-bottom: 0;
+}
+
 /* HEADER TOP */
 body > header {
     background-color: var(--svarozyc--black-90);
@@ -203,8 +213,12 @@ body > header > nav a {
     max-width: 608px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
 }
+
+article.container-4 {
+    margin-bottom: 1.5rem;
+}
+
 
 .container-12 {
     padding: 1.5rem;
@@ -404,4 +418,35 @@ footer a {
     .breadcrumbs--desktop {
         display: flex;
     }
+}
+
+/* FIGURE */
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+}
+
+figure figcaption {
+    margin: 1.5rem 0;
+    text-align: center;
+    font-style: italic;
+}
+
+figure:last-child figcaption {
+    margin-bottom: 0;
+}
+
+/* META */
+#meta.container-4 {
+    margin-bottom: 3rem;
+}
+
+aside#meta {
+    display: flex;
+    justify-content: space-between;
 }
