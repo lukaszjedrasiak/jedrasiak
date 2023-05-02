@@ -32,6 +32,8 @@
 /* desktop: 1389px */ 
 
 html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -95,6 +97,10 @@ h3::after {
 a {
     color: var(--svarozyc--blue);
     text-decoration: none;
+}
+
+a.current {
+    color: var(--svarozyc--green);
 }
 
 a:hover {
@@ -182,6 +188,7 @@ body > header > nav a {
 
 .hero .subtitle {
     font-family: monospace;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 
@@ -194,10 +201,18 @@ body > header > nav a {
 
 .container-4 {
     max-width: 608px;
-    padding: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
+}
+
+.container-12 {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.background {
+    padding: 1.5rem;
     background-color: var(--svarozyc--black-90);
     border-radius: 0.5rem;
 }
@@ -354,4 +369,39 @@ footer > span {
 
 footer a {
     color: var(--svarozyc--white-90);
+}
+
+/* BREADCRUMBS */
+.breadcrumbs {
+    list-style-type: none;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumbs--desktop {
+    display: none;
+}
+
+.breadcrumbs--mobile {
+    display: flex;
+}
+
+.breadcrumbs--desktop li+li::before {
+    content: "/";
+    margin: 0 0.75rem;
+}
+
+.breadcrumbs--mobile li::before {
+    content: "<";
+}
+
+@media screen and (min-width: 1389px) {
+    .breadcrumbs--mobile {
+        display: none;
+    }
+
+    .breadcrumbs--desktop {
+        display: flex;
+    }
 }

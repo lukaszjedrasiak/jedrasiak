@@ -1,4 +1,7 @@
 <header class="hero">
     <h1>{{.Title}}</h1>
     <div class="subtitle">{{.Params.subtitle | markdownify}}</div>
+    {{if not .IsHome}}
+        {{partial "breadcrumbs.html" .}}
+    {{end}}
 </header>
