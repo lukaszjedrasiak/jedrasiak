@@ -1,0 +1,12 @@
+<div>
+    <span>{{T "tags"}}:</span>
+    {{range .Params.tags}}
+        <a href="/tags/{{. | urlize}}" class="tag">
+            {{- . -}}
+        </a>
+    {{end}}
+</div>
+
+<div>
+    {{.PublishDate.Format "2006-01-02"}}
+</div>
