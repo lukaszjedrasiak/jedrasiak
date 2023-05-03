@@ -1,6 +1,6 @@
 ---
 title: "łukasz jędrasiak"
 shortTitle: "strona główna"
-headtitle: "programista no-code / low-code ai"
-subtitle: "programista no-code / low-code ai • programista front-end • specjalista ds. marketingu • maker"
+headtitle: "no-code / low-code developer • ai developer"
+subtitle: "no-code / low-code developer • ai developer • front-end developer • maker"
 ---
