@@ -23,6 +23,6 @@ ErrorDocument 404 /404/
 </IfModule>
 
 # Redirects
-Redirect 301 /elektronika/uklad-zasilajacy-do-plytek-stykowych/ /baza-wiedzy/artykuly/uklad-zasilajacy-do-plytek-stykowych/
-Redirect 301 /elektronika/czujnik-zmierzchu/ /baza-wiedzy/artykuly/czujnik-zmierzchu/
-Redirect 301 /elektronika/multiwibrator-dwustanowy-bistabilny/ /baza-wiedzy/artykuly/multiwibrator-dwustanowy-bistabilny/
+Redirect 301 /elektronika/uklad-zasilajacy-do-plytek-stykowych/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/uklad-zasilajacy-do-plytek-stykowych/
+Redirect 301 /elektronika/czujnik-zmierzchu/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/czujnik-zmierzchu/
+Redirect 301 /elektronika/multiwibrator-dwustanowy-bistabilny/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/multiwibrator-dwustanowy-bistabilny/
