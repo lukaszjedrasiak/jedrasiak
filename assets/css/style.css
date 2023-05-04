@@ -391,8 +391,8 @@ footer {
 }
 
 footer > span {
-
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     gap: 0.75rem;
     justify-content: center;
     border-top: 1px dashed var(--svarozyc--white-90);
