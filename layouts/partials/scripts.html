@@ -1,5 +1,9 @@
 {{$jslightbox := resources.GetMatch "/js/lightbox-plus-jquery.min.js" | resources.Minify | resources.Fingerprint}}
+{{$katexmain := resources.GetMatch "/js/katex.min.js" | resources.Fingerprint}}
+{{$katexrender := resources.GetMatch "/js/auto-render.min.js" | resources.Fingerprint}}
 
 <div>
     <script src="{{$jslightbox.RelPermalink}}"></script>
+    <script src="{{$katexmain.RelPermalink}}"></script>
+    <script src="{{$katexrender.RelPermalink}}" onload="renderMathInElement(document.body);"></script>
 </div>
