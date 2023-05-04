@@ -7,9 +7,9 @@
 {{$lightbox := resources.Get "/css/lightbox.min.css" | resources.Fingerprint}}
 {{$katex := resources.Get "/css/katex.min.css" | resources.Fingerprint}}
 <link rel="stylesheet" href="{{$normalize.RelPermalink}}">
-<link rel="stylesheet" href="{{$style.RelPermalink}}">
 <link rel="stylesheet" href="{{$lightbox.RelPermalink}}">
 <link rel="stylesheet" href="{{$katex.RelPermalink}}">
+<link rel="stylesheet" href="{{$style.RelPermalink}}">
 
 {{if .Params.headtitle}}
     <title>{{.Params.headtitle}} | {{site.Title}}</title>

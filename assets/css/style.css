@@ -94,6 +94,11 @@ h3::after {
     content: " --- ";
 }
 
+h4::before,
+h4::after {
+    content: " ---- ";
+}
+
 a {
     color: var(--svarozyc--blue);
     text-decoration: none;
@@ -130,6 +135,12 @@ ul {
 article > ol:last-child,
 article > ul:last-child {
     margin-bottom: 0;
+}
+
+blockquote {
+    border-left: 5px solid var(--svarozyc--magenta);
+    margin: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 /* HEADER TOP */
@@ -444,7 +455,7 @@ figure figcaption {
     font-style: italic;
 }
 
-figure:last-of-type figcaption {
+figure:last-child figcaption {
     margin-bottom: 0;
 }
 
@@ -459,7 +470,13 @@ aside#meta {
 }
 
 /* KATEX */
+.katex {
+    font: normal 1.125rem KaTeX_Main,Times New Roman,serif;
+    line-height: 1.333333;
+}
+
 .katex-display {
+    margin: 1.5rem 0;
     max-width: 100%;
     overflow-x: auto;
 }
