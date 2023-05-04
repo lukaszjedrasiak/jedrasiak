@@ -1,6 +1,7 @@
 ---
 title: "czujnik zmierzchu"
 subtitle: "jak zbudować czujnik zmierzchu za pomocą komparatora napięcia LM 311"
+url: baza-wiedzy/artykuly/czujnik-zmierzchu/
 categories:
 - article
 tags:

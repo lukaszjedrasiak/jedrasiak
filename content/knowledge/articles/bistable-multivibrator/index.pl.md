@@ -2,6 +2,7 @@
 title: "multiwibrator dwustanowy bistabilny"
 shortTitle: "przerzutnik bistabilny"
 subtitle: "układ do manualnego generowania sygnału prostokątnego"
+url: baza-wiedzy/artykuly/multiwibrator-dwustanowy-bistabilny/
 categories:
 - article
 tags:

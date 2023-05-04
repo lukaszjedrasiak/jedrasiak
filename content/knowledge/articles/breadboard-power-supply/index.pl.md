@@ -2,7 +2,7 @@
 title: "układ zasilający do płytek stykowych"
 shortTitle: "zasilacz do płytek stykowych"
 subtitle: "jak zbudować zasilacz do płytek prototypowych"
-url: baza-wiedzy/artykuly/uklad-zasilajacy-do-plytek-stykowych
+url: baza-wiedzy/artykuly/uklad-zasilajacy-do-plytek-stykowych/
 categories:
 - article
 tags:
