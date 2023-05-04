@@ -219,6 +219,13 @@ article.container-4 {
     margin-bottom: 1.5rem;
 }
 
+@media screen and (max-width: 450px) {
+    article.container-4 {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
 
 .container-12 {
     padding: 1.5rem;
@@ -437,7 +444,7 @@ figure figcaption {
     font-style: italic;
 }
 
-figure:last-child figcaption {
+figure:last-of-type figcaption {
     margin-bottom: 0;
 }
 
@@ -449,4 +456,44 @@ figure:last-child figcaption {
 aside#meta {
     display: flex;
     justify-content: space-between;
+}
+
+/* KATEX */
+.katex-display {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* TABLE */
+
+.table-wrapper {
+    overflow-x: auto;
+    max-width: calc(100vw - 2rem);
+    margin-bottom: 1.5rem;
+}
+
+table {
+    width: 100%;
+    font-size: 0.875rem;
+    border-collapse: collapse;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid var(--svarozyc--black-65);
+}
+
+td,
+th {
+    padding: 0.25rem;
+}
+
+td {
+    text-align: center;
+}
+
+td:nth-child(1) {
+    text-align: left;
 }

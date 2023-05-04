@@ -1,0 +1,7 @@
+{{if .Get "class"}}
+    <div class="table-wrapper {{.Get "class"}}">
+{{else}}
+    <div class="table-wrapper">
+{{end}}
+    {{.Inner | markdownify}}
+</div>
