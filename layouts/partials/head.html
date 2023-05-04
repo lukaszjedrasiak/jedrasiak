@@ -10,6 +10,11 @@
 <link rel="stylesheet" href="{{$lightbox.RelPermalink}}">
 <link rel="stylesheet" href="{{$katex.RelPermalink}}">
 <link rel="stylesheet" href="{{$style.RelPermalink}}">
+{{with .Params.customCSS}}
+    {{$path := printf "/css/%s" . }}
+    {{$custom := resources.Get $path | resources.Minify | resources.Fingerprint}}
+    <link rel="stylesheet" href="{{$custom.RelPermalink}}">
+{{end}}
 
 {{if .Params.headtitle}}
     <title>{{.Params.headtitle}} | {{site.Title}}</title>

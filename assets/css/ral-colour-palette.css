@@ -1,0 +1,22 @@
+.block {
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.block p:nth-child(1) {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.block p:nth-child(2) {
+    text-align: center;
+}
+
+.block-black {
+    color: var(--svarozyc--black-90);
+}
+
+.block-white {
+    color: var(-svarozyc--white-90);
+}

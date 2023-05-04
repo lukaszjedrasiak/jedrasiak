@@ -241,7 +241,6 @@ aside.container-4 {
 
 
 .container-12 {
-    padding: 1.5rem;
     margin-bottom: 3rem;
 }
 
@@ -281,6 +280,9 @@ aside.container-4 {
     }
     .grid-desktop-6 {
         grid-template-columns: repeat(6, 1fr);
+    }
+    .grid-desktop-12 {
+        grid-template-columns: repeat(12, 1fr);
     }
 }
 

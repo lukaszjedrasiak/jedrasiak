@@ -1,8 +1,9 @@
 {{define "main"}}
-    <p>list template</p>
-    {{range .Pages}}
-        <a href="{{.RelPermalink}}">
-            {{.Title}}
-        </a>    
-    {{end}}
+    <section class="container">
+        <div class="grid grid-tablet-2 grid-desktop-4">
+            {{range .Pages}}
+                {{.Render "card--article"}}
+            {{end}}
+        </div>
+    </section>
 {{end}}
