@@ -220,6 +220,10 @@ body > header > nav a {
     /* outline: 1px solid red; */
 }
 
+.container:last-of-type {
+    margin-bottom: 1.5rem;
+}
+
 .container-4 {
     max-width: 608px;
     margin-left: auto;
@@ -317,6 +321,11 @@ aside.container-4 {
 .card--article > div.summary > div {
     display: flex;
     justify-content: end;
+}
+
+.card--article h3::before,
+.card--article h3::after {
+    content: "";
 }
 
 /* CARD--SINGLESVG */
@@ -465,7 +474,7 @@ figure:last-child figcaption {
 
 /* META */
 #meta.container-4 {
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 aside#meta {

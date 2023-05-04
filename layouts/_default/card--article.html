@@ -9,9 +9,13 @@
     {{end}}
     
     <div class="summary">
-        <a href="{{.RelPermalink}}">
+        {{if .Params.readMore}}
+            <a href="{{.RelPermalink}}">
+                <h3>{{.Params.shortTitle | default .Title}}</h3>
+            </a>
+        {{else}}
             <h3>{{.Params.shortTitle | default .Title}}</h3>
-        </a>
+        {{end}}
         <p>{{.Summary | plainify}}</p>
         {{/*
         {{if .Params.readMore}}
