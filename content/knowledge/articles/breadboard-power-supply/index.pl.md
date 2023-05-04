@@ -33,9 +33,7 @@ Finalna wersja układu będzie zmontowana na płytce drukowanej wyposażonej w z
 ## Wersja 1.0
 
 {{<image src="breadboard-power-supply-v10-20201114-bb.webp" caption="Wizualizacja układu zasilającego do płytek stykowych v. 1.0">}}
-
 {{<image src="breadboard-power-supply-v10-20201114-scheme.webp" caption="Schemat układu zasilającego do płytek stykowych v. 1.0">}}
-
 {{<image src="breadboard-power-supply-v10-20201114-photo.webp" caption="Fotografia układu zasilającego do płytek stykowych v. 1.0">}}
 
 Pierwsza wersja mojego układu zasilającego do płytek stykowych niemal w całości została zaczerpnięta z książki Pawła Borkowskiego pt. Przygoda z elektroniką. Moim autorskim wkładem było jedynie dodanie włącznika i diody, żeby mieć pewność, że wszystkie styki są we właściwych miejscach. Podmieniłem też kondensator C3. Zamiast 470 μF podłączyłem 220 μF, ponieważ tylko taki miałem akurat w zasobach, a nie chciałem łączyć kilku, żeby nie komplikować wizualizacji i zdjęcia.
@@ -72,9 +70,7 @@ Przy pierwszych testach układu okazało się, że napięcie wyjściowe jest dal
 ## Wersja 2.0
 
 {{<image src="breadboard-power-supply-v20-20201211-bb.webp" caption="Wizualizacja układu zasilającego do płytek stykowych v. 2.0">}}
-
 {{<image src="breadboard-power-supply-v20-20201211-scheme.webp" caption="Schemat układu zasilającego do płytek stykowych v. 2.0">}}
-
 {{<image src="breadboard-power-supply-v20-20201211-photo.webp" caption="Fotografia układu zasilającego do płytek stykowych v. 2.0">}}
 
 Zgodnie z planem, druga wersja mojego układu zasilającego do płytek stykowych nie różni się zasadą działania od pierwszego modelu. Najważniejszą modyfikacją było dodanie stabilizatora 3,3 V (LD1117V33). Przy okazji nauczyłem się, że po zakupie nowych podzespołów zawsze trzeba zapoznać się z ich dokumentacją. W przypadku tego elementu okazało się, że schemat wyprowadzeń na nóżkach różni się od zastosowanego w modelu 7805.
@@ -87,4 +83,6 @@ Zmieniłem też umiejscowienie diod LED, które teraz sygnalizują prawidłową 
 
 Zastanawiam się jeszcze, czy szeregowe podłączenie stabilizatorów jest prawidłowe. Za wyborem takiego rozwiązania przemawia zasada działania tych elementów, które podczas obniżania napięcia „nadmiarową” moc zamieniają w energię cieplną. Weźmy dla przykładu urządzenie, które podłączone do szyny 3,3 V będzie zasilane prądem 100 mA. Pobierana przez niego moc wynosić będzie 0,33 W (P = U × I). Moc pobierana przez zasilacz 12 V będzie wynosić 1,2 W. Różnica między 1,2 W a 0,33 W będzie się odkładała na stabilizatorze i zamieniała w ciepło. Przy podłączeniu równoległym cała marnowana moc byłaby emitowana przez jeden stabilizator (w efekcie czego komponent mocno by się nagrzewał), a przy podłączeniu szeregowym rozkłada się na dwa podzespoły.
 
-Przez chwilę byłem przekonany, że życie to nieustająca sztuka kompromisu i muszę się po prostu pogodzić z dodatkowym źródłem ciepła na biurku. Zapobiegawczo zamontowałem nawet widoczne na zdjęciu radiatory. W międzyczasie przeczytałem jednak o przetwornicach impulsowych, których straty mocy wynikające z obniżania napięcia wynoszą jedynie ok. 10%. Oznacza to tylko jedno – układ zasilający do płytek stykowych doczeka się co najmniej jeszcze jednej wersji.
+Przez chwilę byłem przekonany, że życie to nieustająca sztuka kompromisu i muszę się po prostu pogodzić z dodatkowym źródłem ciepła na biurku. Zapobiegawczo zamontowałem nawet widoczne na zdjęciu radiatory. W międzyczasie przeczytałem jednak o przetwornicach impulsowych, których straty mocy wynikające z obniżania napięcia wynoszą jedynie ok. 10%. 
+
+Oznacza to tylko jedno – układ zasilający do płytek stykowych doczeka się co najmniej jeszcze jednej wersji.

@@ -58,10 +58,9 @@ Czujnik zmierzchu w wersji 1.0 jest prosty, ale działa. Ma jednak jedną podsta
 
 ## Czujnik zmierzchu: wersja 2.0
 
-
-{{<image src="dusk-sensor-v20-20201211-bb.webp" caption="Wizualizacja czujnika zmierzchu v. 1.0">}}
-{{<image src="dusk-sensor-v20-20201211-scheme.webp" caption="Schemat czujnika zmierzchu v. 1.0">}}
-{{<image src="dusk-sensor-v20-20201211-photo.webp" caption="Fotografia czujnika zmierzchu v. 1.0">}}
+{{<image src="dusk-sensor-v20-20201211-bb.webp" caption="Wizualizacja czujnika zmierzchu v. 2.0">}}
+{{<image src="dusk-sensor-v20-20201211-scheme.webp" caption="Schemat czujnika zmierzchu v. 2.0">}}
+{{<image src="dusk-sensor-v20-20201211-photo.webp" caption="Fotografia czujnika zmierzchu v. 2.0">}}
 
 W celu wyeliminowania największej wady pierwszej wersji mojego czujnika zmierzchu, w drugim podejściu zastosowałem komparator napięcia LM 311. Układ ten porównuje wartości napięć przyłożonych do tzw. wejścia nieodwracającego (pin 2 oraz „+” na schemacie) i wejścia odwracającego (pin 3 oraz „-” na schemacie). Wynikiem tego porównania jest napięcie na wyjściu układu (pin 7):
 * jeżeli napięcie na wejściu nieodwracającym jest większe niż na wejściu odwracającym to napięcie na wyjściu jest równe napięciu zasilania (jeżeli pin 2 > pin 3 to Uwyj = VCC).
