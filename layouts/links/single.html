@@ -1,8 +1,10 @@
 {{define "main"}}
     <article class="container-4 background">
         {{.Content}}
+    </article>
+    <aside class="container-4 background">
         {{with .Params.extlink}}
             <a href="{{.}}" target="_blank" rel="nofollow noopener">{{.}}</a>
         {{end}}
-    </article>
+    </aside>
 {{end}}

@@ -226,12 +226,14 @@ body > header > nav a {
     margin-right: auto;
 }
 
-article.container-4 {
+article.container-4,
+aside.container-4 {
     margin-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 450px) {
-    article.container-4 {
+    article.container-4,
+    aside.container-4 {
         font-size: 1rem;
         line-height: 1.5;
     }
