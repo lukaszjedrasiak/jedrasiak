@@ -1,14 +1,12 @@
-baseURL: "https://www.jedrasiak.eu"
-
 cleanDestinationDir: true
 defaultContentLanguage: "en"
-defaultContentLanguageInSubdir: true
 disableHugoGeneratorInject: true
 enableMissingTranslationPlaceholders: true
 removePathAccents: true
 
 languages:
   en:
+    baseURL: "https://www.jedrasiak.eu"
     languageName: english
     weight: 1
     title: "lukasz jedrasiak"
@@ -31,6 +29,7 @@ languages:
         weight: 50
 
   pl:
+    baseURL: "https://www.jedrasiak.pl"
     languageName: polski
     weight: 2
     title: "łukasz jędrasiak"
