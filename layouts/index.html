@@ -1,6 +1,6 @@
 {{define "main"}}
     <section class="container">
-        <h2>Projects</h2>
+        <h2>{{T "projects"}}</h2>
         <div class="grid grid-tablet-2 grid-desktop-4">
             {{range where site.RegularPages "Section" "projects"}}
                 {{ .Render "card--article" }}
@@ -13,7 +13,7 @@
     </section>
     
     <section class="container">
-        <h2>Stack</h2>
+        <h2>{{T "stack"}}</h2>
         <div class="grid grid-mobile-2 grid-tablet-3 grid-desktop-6">
             <div class="card--singlesvg">
                 <img src="/images/javascript.svg" alt="javascript logo" width="72" height="72">
@@ -37,7 +37,7 @@
     </section>
 
     <section class="container">
-        <h2>Articles</h2>
+        <h2>{{T "articles"}}</h2>
         <div style="display: flex; flex-direction: column; gap: 1.5rem;">
             {{range first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "article"))}}
                 {{.Render "row--article"}}
@@ -46,7 +46,7 @@
     </section>
 
     <section class="container">
-        <h2>Design manifesto</h2>
+        <h2>{{T "design manifesto"}}</h2>
         <div class="grid grid-tablet-2 grid-desktop-4">
             {{range where .Site.RegularPages ".Params.categories" "intersect" (slice "manifesto")}}
                 {{.Render "card--article"}}

@@ -1,6 +1,6 @@
 {{define "main"}}
     <section class="container">
-        <h2>featured articles</h2>
+        <h2>{{T "featured"}} {{T "articles"}}</h2>
         <div class="grid grid-tablet-2 grid-desktop-4">
             {{range first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "article"))}}
                 {{ .Render "card--article" }}
@@ -8,12 +8,12 @@
         </div>
         {{$articles := .Site.GetPage "articles"}}
         <div style="display: flex; justify-content: end; margin-top: 1.5rem;">
-            <a href="{{$articles.RelPermalink}}">view all ></a> 
+            <a href="{{$articles.RelPermalink}}">{{T "view all"}} ></a> 
         </div>
     </section>
 
     <section class="container">
-        <h2>featured links</h2>
+        <h2>{{T "featured"}} {{T "links"}}</h2>
         <div style="display: flex; flex-direction: column; gap: 1.5rem;">
             {{range first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "link"))}}
                 {{.Render "row--article"}}
@@ -21,7 +21,7 @@
         </div>
         {{$links := .Site.GetPage "links"}}
         <div style="display: flex; justify-content: end; margin-top: 1.5rem;">
-            <a href="{{$links.RelPermalink}}">view all ></a> 
+            <a href="{{$links.RelPermalink}}">{{T "view all"}} ></a> 
         </div>
     </section>
 {{end}}
