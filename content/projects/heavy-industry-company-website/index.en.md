@@ -1,5 +1,6 @@
 ---
 title: "website for a heavy industry company"
+subtitle: "bilingual website designed in accordance with Jamstack architecture"
 shortTitle: "heavy industry website"
 weight: 40
 image:
@@ -9,6 +10,5 @@ image:
     width: 320
 readMore: true
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum a risus eu feugiat. Duis scelerisque imperdiet dui.
+A fast, lightweight, and SEO-optimised website designed according to Jamstack architecture (Hugo SSG). Two language versions and integration with CRM.
 <!--more-->
-xxx

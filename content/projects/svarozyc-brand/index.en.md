@@ -1,5 +1,6 @@
 ---
 title: "SVAROZYC brand"
+subtitle: "side project – a company specialising in automation and robotics"
 weight: 20
 image:
     name: svarozyc-logo
@@ -8,6 +9,6 @@ image:
     width: 274
 readMore: true
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum a risus eu feugiat. Duis scelerisque imperdiet dui.
+An experiment in which I create a company specialising in automation and robotics from scratch, using no-code/low-code tools and artificial intelligence.
 <!--more-->
 xxx
