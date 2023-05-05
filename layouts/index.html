@@ -38,7 +38,7 @@
 
     <section class="container">
         <h2>{{T "articles"}}</h2>
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="rows">
             {{range first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "article"))}}
                 {{.Render "row--article"}}
             {{end}}

@@ -1,0 +1,20 @@
+{{define "main"}}
+    <section class="container">
+        <h2>{{T "resources in this category"}}</h2>
+
+        <div class="grid grid-mobile-1 grid-tablet-2 grid-desktop-4">
+            {{range .Pages}}
+                <div class="background card--course">
+                    <div>
+                        {{if isset .Params "certificate"}}
+                            <a href="{{.RelPermalink}}{{.Params.certificate}}">{{.Title}}</a>
+                        {{else}}
+                            {{.Title}}
+                        {{end}}
+                    </div>
+                    <div>{{.Params.by}}</div>
+                </div>
+            {{end}}
+        </div>
+    </section>
+{{end}}

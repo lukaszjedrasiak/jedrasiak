@@ -22,19 +22,19 @@ languages:
     menu:
       main:
       - name: "projects"
-        pageRef: /projects
+        pageRef: /projects/
         weight: 10
       - name: "tools"
-        pageRef: /tools
+        pageRef: /tools/
         weight: 20
       - name: "knowledge"
-        pageRef: /knowledge
+        pageRef: /knowledge/
         weight: 30
       - name: "newsletter"
-        pageRef: /newsletter
+        pageRef: /newsletter/
         weight: 40
       - name: "hire me"
-        pageRef: /contact
+        pageRef: /contact/
         weight: 50
 
   pl:
@@ -45,17 +45,17 @@ languages:
     menu:
       main:
       - name: "projekty"
-        pageRef: /projekty
+        pageRef: /projekty/
         weight: 10
       - name: "narzędzia"
-        pageRef: /narzedzia
+        pageRef: /narzedzia/
         weight: 20
       - name: "wiedza"
-        pageRef: /baza-wiedzy
+        pageRef: /baza-wiedzy/
         weight: 30
       - name: "newsletter"
-        pageRef: /newsletter
+        pageRef: /newsletter/
         weight: 40
       - name: "zatrudnij mnie"
-        pageRef: /kontakt
+        pageRef: /kontakt/
         weight: 50
