@@ -4,5 +4,5 @@ categories:
 - manifesto
 index: false
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum a risus eu feugiat. Duis scelerisque imperdiet dui.
+The aesthetics of the product are aimed solely at satisfying the needs of users. I focus on simplicity and minimalism, and avoid embellishments that do not affect the usability of the product.
 <!--more-->

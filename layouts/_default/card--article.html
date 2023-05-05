@@ -16,7 +16,7 @@
         {{else}}
             <h3>{{.Params.shortTitle | default .Title}}</h3>
         {{end}}
-        <p>{{.Summary | plainify}}</p>
+        <p>{{.Summary | plainify | safeHTML}}</p>
         {{/*
         {{if .Params.readMore}}
             <div>

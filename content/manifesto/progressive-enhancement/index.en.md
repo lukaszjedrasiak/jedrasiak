@@ -1,8 +1,8 @@
 ---
-title: "progressive-enhancement"
+title: "progressive enhancement"
 categories:
 - manifesto
 index: false
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum a risus eu feugiat. Duis scelerisque imperdiet dui.
+I apply a three-layered structure in my applications: structure (basic functions) => presentation (aesthetics) => interactivity (additional features).
 <!--more-->

@@ -4,5 +4,5 @@ categories:
 - manifesto
 index: false
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum a risus eu feugiat. Duis scelerisque imperdiet dui.
+Maximising the usability of a product by eliminating unnecessary features, simplifying solutions, and focusing on the key tasks of the designed solution.
 <!--more-->

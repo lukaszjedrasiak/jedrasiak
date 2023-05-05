@@ -4,5 +4,5 @@ categories:
 - manifesto
 index: false
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum a risus eu feugiat. Duis scelerisque imperdiet dui.
+Simplicity, minimalism, and the reduction of unnecessary elements in design lead to greater elegance and functionality, emphasising the importance of quality over quantity.
 <!--more-->
