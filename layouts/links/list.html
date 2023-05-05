@@ -1,9 +1,10 @@
 {{define "main"}}
-    <div class="container">
+    <section class="container">
+        <h2>{{T "resources in this category"}}</h2>
         <div style="display: flex; flex-direction: column; gap: 1.5rem;">
             {{range first 4 (where .Site.RegularPages ".Params.categories" "intersect" (slice "link"))}}
                 {{.Render "row--article"}}
             {{end}}
         </div>
-    </div>
+    </section>
 {{end}}
