@@ -1,0 +1,48 @@
+{{define "main"}}
+    <div id="project" class="container grid grid-tablet-2 grid-desktop-2">
+        {{$screenshoot := .Resources.GetMatch "screenshoot.*"}}
+        <div 
+            class="background" 
+            style="background-image: url({{$screenshoot}});">
+        </div>
+        <div class="background">
+            <div style="margin-bottom: 1.5rem;"><b>{{.Summary | plainify | safeHTML}}</b></div>
+            <div>
+                {{with .Resources.GetMatch "table.*"}}
+                    {{.Content}}
+                {{end}}
+            </div>
+            <div>
+                {{$content := split .RawContent "<!--more-->"}}
+                <p>{{index $content 1 | markdownify}}</p>
+            </div>
+        </div>
+    </div>
+        
+    {{$tags := .Params.tags}}
+    {{with where (where .Site.RegularPages ".Params.categories" "intersect" (slice "article")) ".Params.tags" "intersect" $tags}}
+        <section class="container">
+            <h2>{{T "articles"}}</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                {{range . }}
+                    {{if ne .Permalink $.Permalink}}
+                        {{.Render "row--article"}}
+                    {{end}}
+                {{end}}
+            </div>
+        </section>
+    {{end}}
+        
+    {{with where (where .Site.RegularPages ".Params.categories" "intersect" (slice "post")) ".Params.tags" "intersect" $tags}}
+        <section class="container">
+            <h2>{{T "posts"}}</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                {{range . }}
+                    {{if ne .Permalink $.Permalink}}
+                        {{.Render "row--article"}}
+                    {{end}}
+                {{end}}
+            </div>
+        </section>
+    {{end}}
+{{end}}

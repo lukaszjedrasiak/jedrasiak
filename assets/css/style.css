@@ -123,6 +123,7 @@ p:last-child {
     margin-bottom: 0;
 }
 
+
 svg {
     display: block;
 }
@@ -279,6 +280,10 @@ aside.container-4 {
 }
 
 @media screen and (min-width: 1389px) {
+    .grid-desktop-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .grid-desktop-4 {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -509,7 +514,6 @@ table {
 }
 
 table,
-tr,
 td,
 th {
     border: 1px solid var(--svarozyc--black-65);
@@ -526,4 +530,37 @@ td {
 
 td:nth-child(1) {
     text-align: left;
+}
+
+
+.mono table {
+    font-family: monospace;
+    font-size: 1.125rem;
+}
+
+.mono table tr {
+    height: 3rem;
+}
+
+.mono table td,
+.mono table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    text-align: left;
+}
+
+#project > div:nth-child(1) {
+    min-height: 528px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+}
+
+#project > div:nth-child(1):hover {
+    filter: grayscale(0);
+}
+
+#project img {
+    max-width: 100%;
+    height: auto;
 }

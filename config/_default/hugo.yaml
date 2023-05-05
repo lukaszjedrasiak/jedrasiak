@@ -8,6 +8,11 @@ sitemap:
   changefreq: monthly
   priority: 0.5
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 languages:
   en:
     baseURL: "https://www.jedrasiak.eu"

@@ -3,5 +3,5 @@
 {{else}}
     <div class="table-wrapper">
 {{end}}
-    {{.Inner | markdownify}}
+    {{.Inner | safeHTML | markdownify}}
 </div>

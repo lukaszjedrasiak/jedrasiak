@@ -1,6 +1,6 @@
 <div class="row--article">
     <div class="left">
-        <a href="{{.RelPermalink}}">{{.Title}}</a>
+        <a href="{{.RelPermalink}}">{{.Params.shortTitle | default .Title}}</a>
         <span class="divider">|</span>
         <span>{{.Params.subtitle}}</span>
     </div>
