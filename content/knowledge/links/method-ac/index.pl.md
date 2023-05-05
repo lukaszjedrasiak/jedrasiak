@@ -1,6 +1,7 @@
 ---
 title: "method.ac"
 subtitle: "zestaw darmowych gier do nauki podstaw grafiki cyfrowej"
+url: baza-wiedzy/linki/method-ac/
 extlink: https://method.ac/
 categories:
 - link
