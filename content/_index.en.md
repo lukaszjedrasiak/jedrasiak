@@ -1,6 +1,6 @@
 ---
 title: "lukasz jedrasiak"
 shortTitle: "home"
-headtitle: "no-code / low-code developer • ai developer"
-subtitle: "no-code / low-code developer • ai developer • front-end developer • digital marketing specialist"
+headtitle: "front-end developer • no-code / low-code developer"
+subtitle: "front-end developer • no-code / low-code developer • digital marketing specialist • ai developer"
 ---
