@@ -4,5 +4,5 @@ categories:
 - manifesto
 index: false
 ---
-Stosuję trójwarstwową konstrukcję w swoich aplikacjach: struktura (podstawowe funkcje) => prezentacja (estetyka) => interaktywność (dodatkowe funkcje).
+Ciągłe udoskonalanie jest lepsze niż odroczona doskonałość.
 <!--more-->

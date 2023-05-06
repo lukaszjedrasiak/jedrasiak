@@ -4,5 +4,5 @@ categories:
 - manifesto
 index: false
 ---
-Estetyka projektu ma na celu przede wszystkim zaspokajanie potrzeb użytkowników. Stawiam na prostotę i minimalizm oraz unikam ozdobników, które nie wpływają na użyteczność produktu.
+Kształt zewnętrzny produktu powinien wyrażać jego wewnętrzne funkcje.
 <!--more-->

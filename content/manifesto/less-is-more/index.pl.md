@@ -4,5 +4,5 @@ categories:
 - manifesto
 index: false
 ---
-Prostota, minimalizm i redukcja niepotrzebnych elementów w projektowaniu prowadzą do większej elegancji i funkcjonalności, podkreślając wagę jakości nad ilością.
+Doskonałość osiąga się nie wtedy, gdy nie ma już czego dodać, lecz gdy nie ma już czego usunąć.
 <!--more-->
