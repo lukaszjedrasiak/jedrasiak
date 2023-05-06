@@ -4,5 +4,5 @@ categories:
 - manifesto
 index: false
 ---
-The exterior shape of a product should express its interior functions.
+The exterior shape of a product should express its internal functions.
 <!--more-->

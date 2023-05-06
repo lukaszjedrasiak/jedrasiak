@@ -9,7 +9,7 @@
         {{if .Params.tags}}
             <span>
                 {{range .Params.tags}}
-                    <a href="/tags/{{. | urlize}}" class="tag">
+                    <a href="/{{T "tags"}}/{{T .}}" class="tag">
                         {{- T . -}}
                     </a>
                 {{end}}
