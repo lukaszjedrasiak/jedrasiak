@@ -23,6 +23,19 @@ ErrorDocument 404 /404/
 </IfModule>
 
 # Redirects
-Redirect 301 /elektronika/uklad-zasilajacy-do-plytek-stykowych/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/uklad-zasilajacy-do-plytek-stykowych/
-Redirect 301 /elektronika/czujnik-zmierzchu/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/czujnik-zmierzchu/
-Redirect 301 /elektronika/multiwibrator-dwustanowy-bistabilny/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/multiwibrator-dwustanowy-bistabilny/
+Redirect 301 https://www.jedrasiak.eu/elektronika/uklad-zasilajacy-do-plytek-stykowych/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/uklad-zasilajacy-do-plytek-stykowych/
+Redirect 301 https://www.jedrasiak.eu/elektronika/czujnik-zmierzchu/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/czujnik-zmierzchu/
+Redirect 301 https://www.jedrasiak.eu/elektronika/multiwibrator-dwustanowy-bistabilny/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/multiwibrator-dwustanowy-bistabilny/
+Redirect 301 https://www.jedrasiak.eu/projektowanie-graficzne/paleta-kolorow-ral-tabela-kodow-rgb-cmyk-i-hex/ https://www.jedrasiak.pl/narzedzia/paleta-kolorow-ral/
+Redirect 301 https://www.jedrasiak.eu/marka-svarozyc/robot-na-marsie-czyli-jak-znalezc-pomysl-na-siebie/ https://www.jedrasiak.pl/baza-wiedzy/artykuly/robot-na-marsie-czyli-jak-znalezc-pomysl-na-siebie/
+Redirect 301 https://www.jedrasiak.eu/kontakt/ https://www.jedrasiak.pl/kontakt/
+Redirect 301 https://www.jedrasiak.eu/projekty/ https://www.jedrasiak.pl/projekty/
+
+Redirect 301 https://www.jedrasiak.eu/o-mnie/misja-i-wizja/ https://www.jedrasiak.pl/kontakt/
+Redirect 301 https://www.jedrasiak.eu/o-mnie/curriculum-vitae/ https://www.jedrasiak.pl/kontakt/
+Redirect 301 https://www.jedrasiak.eu/o-mnie/zyciorys/ https://www.jedrasiak.pl/kontakt/
+Redirect 301 https://www.jedrasiak.eu/o-mnie/wyksztalcenie/ https://www.jedrasiak.pl/kontakt/
+Redirect 301 https://www.jedrasiak.eu/o-mnie/szkolenia-i-konferencje/ https://www.jedrasiak.pl/kontakt/
+Redirect 301 https://www.jedrasiak.eu/o-mnie/umiejetnosci/ https://www.jedrasiak.pl/kontakt/
+Redirect 301 https://www.jedrasiak.eu/o-mnie/test-gallupa/ https://www.jedrasiak.pl/kontakt/clifton-strengths/
+Redirect 301 https://www.jedrasiak.eu/o-mnie/ https://www.jedrasiak.pl/kontakt/
