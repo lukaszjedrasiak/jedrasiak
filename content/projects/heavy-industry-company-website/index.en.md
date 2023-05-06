@@ -1,7 +1,7 @@
 ---
 title: "website for a heavy industry company"
 subtitle: "bilingual website designed in accordance with Jamstack architecture"
-shortTitle: "heavy industry website"
+shortTitle: "heavy industry company website"
 weight: 40
 image:
     name: "undisclosed-logo-en"
