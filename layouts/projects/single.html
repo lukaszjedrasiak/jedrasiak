@@ -5,8 +5,12 @@
             class="background" 
             style="background-image: url({{$screenshoot}});">
         </div>
-        <div class="background">
-            <div style="margin-bottom: 1.5rem;"><b>{{.Summary | plainify | safeHTML}}</b></div>
+        
+        <section class="background">
+            <div style="margin-bottom: 1.5rem;">
+                <h2>{{T "desc"}}</h2>
+                <b>{{.Summary | plainify | safeHTML}}</b>
+            </div>
             <div>
                 {{with .Resources.GetMatch "table.*"}}
                     {{.Content}}
@@ -16,8 +20,24 @@
                 {{$content := split .RawContent "<!--more-->"}}
                 <p>{{index $content 1 | markdownify}}</p>
             </div>
-        </div>
+        </section>
     </div>
+
+    {{with .Params.lighthouse}}
+        <section class="container ">
+            <h2>{{T "parameters for home page"}}</h2>
+            <div class="grid grid-mobile-2 grid-tablet-4 grid-desktop-4">
+                {{range $map := .}}
+                    {{range $key, $value := $map}}
+                        <div class="background card--performance">
+                            <p>{{T $key}}</p>
+                            <p>{{$value}}</p>
+                        </div>
+                    {{end}}
+                {{end}}
+            </div>
+        </section>
+    {{end}}
         
     {{$tags := .Params.tags}}
     {{with where (where .Site.RegularPages ".Params.categories" "intersect" (slice "article")) ".Params.tags" "intersect" $tags}}

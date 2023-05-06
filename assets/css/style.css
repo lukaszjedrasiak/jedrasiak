@@ -133,6 +133,11 @@ ul {
     margin: 1.5rem 0;
 }
 
+ol:nth-last-child(2),
+ul:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
 article > ol:last-child,
 article > ul:last-child {
     margin-bottom: 0;
@@ -171,6 +176,7 @@ body > header > nav.mobile > div {
     position: absolute;
     top: 4.5rem;
     left: 0;
+    z-index: 100;
 }
 
 body > header > nav.mobile:hover > div {
@@ -601,4 +607,14 @@ td:nth-child(1) {
 /* CARD--COURSE */
 .card--course {
     text-align: center;
+}
+
+/* CARD--PERFORMANCE */
+.card--performance {
+    text-align: center;
+}
+.card--performance p:last-child {
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--svarozyc--green);
 }
