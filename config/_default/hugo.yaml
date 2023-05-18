@@ -33,7 +33,7 @@ languages:
       - name: "newsletter"
         pageRef: /newsletter/
         weight: 40
-      - name: "contact"
+      - name: "hire me"
         pageRef: /contact/
         weight: 50
 
@@ -56,6 +56,6 @@ languages:
       - name: "newsletter"
         pageRef: /newsletter/
         weight: 40
-      - name: "kontakt"
+      - name: "zatrudnij mnie"
         pageRef: /kontakt/
         weight: 50
