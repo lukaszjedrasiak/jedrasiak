@@ -4,5 +4,5 @@ categories:
 - manifesto
 index: false
 ---
-Ciągłe udoskonalanie jest lepsze niż odroczona doskonałość. Innymi słowy: make it work, make it right, make it fast.
+Ciągłe udoskonalanie jest lepsze niż odroczona doskonałość.
 <!--more-->

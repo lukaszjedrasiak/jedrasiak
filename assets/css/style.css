@@ -552,10 +552,12 @@ th {
 
 td {
     text-align: center;
+    overflow-wrap: anywhere;
 }
 
 td:nth-child(1) {
     text-align: left;
+    overflow-wrap: anywhere;
 }
 
 
@@ -573,6 +575,7 @@ td:nth-child(1) {
     padding: 0.75rem;
     vertical-align: top;
     text-align: left;
+    overflow-wrap: anywhere;
 }
 
 #project > div:nth-child(1) {
@@ -620,4 +623,30 @@ td:nth-child(1) {
     font-size: 3rem;
     line-height: 1;
     color: var(--svarozyc--green);
+}
+
+/* CARD--ABOUT */
+
+#aboutme--image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutme--image img {
+    max-width: 128px;
+    border-radius: 50%;;
+}
+
+#aboutme--desc {
+    width: 100%;
+    background-color: var(--svarozyc--black-90);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 766px) {
+    #aboutme--desc {
+        grid-column: 2 / 5;
+    }
 }

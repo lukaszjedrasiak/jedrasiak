@@ -1,6 +1,6 @@
 ---
-title: "zatrudnij mnie"
+title: "pozostańmy w kontakcie"
 shortTitle: kontakt
-subtitle: "zdalnie • warszawa • łódź"
+# subtitle: "zdalnie • warszawa • łódź"
 url: kontakt/
 ---
