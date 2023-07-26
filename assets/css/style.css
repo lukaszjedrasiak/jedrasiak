@@ -469,7 +469,7 @@ footer a {
 }
 
 .breadcrumbs--mobile li::before {
-    content: "<";
+    content: "< ";
 }
 
 @media screen and (min-width: 1389px) {
@@ -529,7 +529,7 @@ aside#meta {
 
 .table-wrapper {
     overflow-x: auto;
-    max-width: calc(100vw - 2rem);
+    max-width: calc(100vw - 6rem);
     margin-bottom: 1.5rem;
 }
 
@@ -543,6 +543,7 @@ table,
 td,
 th {
     border: 1px solid var(--svarozyc--black-65);
+    white-space: nowrap;
 }
 
 td,
@@ -552,12 +553,10 @@ th {
 
 td {
     text-align: center;
-    overflow-wrap: anywhere;
 }
 
 td:nth-child(1) {
     text-align: left;
-    overflow-wrap: anywhere;
 }
 
 
@@ -575,7 +574,6 @@ td:nth-child(1) {
     padding: 0.75rem;
     vertical-align: top;
     text-align: left;
-    overflow-wrap: anywhere;
 }
 
 #project > div:nth-child(1) {
