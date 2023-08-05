@@ -20,6 +20,9 @@ languages:
     languageName: english
     weight: 1
     title: "lukasz jedrasiak"
+    params:
+      domain: "jedrasiak.eu"
+      trackingURL: https://plausible.io/js/script.js
     menu:
       main:
       - name: "projects"
@@ -43,6 +46,9 @@ languages:
     languageName: polski
     weight: 2
     title: "łukasz jędrasiak"
+    params:
+      domain: "jedrasiak.pl"
+      trackingURL: https://plausible.io/js/script.js
     menu:
       main:
       - name: "projekty"

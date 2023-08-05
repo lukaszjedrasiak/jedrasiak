@@ -41,3 +41,5 @@
 <link rel="icon" href="/favicon.ico">
 
 <meta name="description" content="{{.Summary | default .Params.subtitle}}">
+{{/* tracking code */}}
+<script defer data-domain="{{$.Site.Params.domain}}" src="{{$.Site.Params.trackingURL | safeURL}}"></script>
