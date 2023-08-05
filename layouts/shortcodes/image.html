@@ -2,10 +2,13 @@
 {{$imgbig := .Page.Resources.Get $path}}
 {{$imgsmall := $imgbig.Resize "512x"}}
 {{$caption := .Get "caption"}}
+{{$displayCaption := .Get "displayCaption"}}
 {{$title := .Page.Title}}
 <figure>
     <a href="{{$imgbig.RelPermalink}}" data-lightbox="{{$title}}" data-title="{{$caption}}">
         <img src="{{$imgsmall.RelPermalink}}" alt="{{.Get "caption"}}">
     </a>
-    <figcaption>{{$caption}}</figcaption>
+    {{if ne $displayCaption "false"}}
+        <figcaption>{{$caption}}</figcaption>
+    {{end}}
 </figure>

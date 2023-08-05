@@ -31,8 +31,8 @@ languages:
       - name: "knowledge"
         pageRef: /knowledge/
         weight: 30
-      - name: "newsletter"
-        pageRef: /newsletter/
+      - name: "blog"
+        pageRef: /blog/
         weight: 40
       - name: "contact"
         pageRef: /contact/
@@ -54,8 +54,8 @@ languages:
       - name: "wiedza"
         pageRef: /baza-wiedzy/
         weight: 30
-      - name: "newsletter"
-        pageRef: /newsletter/
+      - name: "blog"
+        pageRef: /blog/
         weight: 40
       - name: "kontakt"
         pageRef: /kontakt/

@@ -316,6 +316,8 @@ aside.container-4 {
 
 .card--article > div.image {
     background-color: var(--svarozyc--black-95);
+    background-position: center;
+    background-size: cover;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     padding: 1.5rem;
@@ -485,7 +487,7 @@ footer a {
 /* FIGURE */
 
 figure {
-    margin: 0;
+    margin: 1.5rem 0;
 }
 
 figure img {
