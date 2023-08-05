@@ -66,29 +66,32 @@ h3 {
 
 h1 {
     font-size: 1.5rem;
-    line-height: 1;
+    line-height: 1.5;
     text-align: center;
 }
 
+/*
 h1::before,
 h1::after {
     content: " - "
 }
+*/
 
 h2 {
     font-size: 1.125rem;
     text-transform: uppercase;
 }
 
-h2::before,
-h2::after {
-    content: " -- ";
+
+h2::before {
+    content: ".: ";
 }
 
 h3 {
     font-size: 1.125rem;
 }
 
+/*
 h3::before,
 h3::after {
     content: " --- ";
@@ -98,6 +101,7 @@ h4::before,
 h4::after {
     content: " ---- ";
 }
+*/
 
 a {
     color: var(--svarozyc--blue);
@@ -245,6 +249,7 @@ aside.container-4 {
     margin-bottom: 1.5rem;
 }
 
+/*
 @media screen and (max-width: 450px) {
     article.container-4,
     aside.container-4 {
@@ -252,7 +257,7 @@ aside.container-4 {
         line-height: 1.5;
     }
 }
-
+*/
 
 .container-12 {
     margin-bottom: 3rem;
