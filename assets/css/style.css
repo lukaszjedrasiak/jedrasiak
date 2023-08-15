@@ -140,10 +140,12 @@ ul {
     margin: 1.5rem 0;
 }
 
+/*
 ol:nth-last-child(2),
 ul:nth-last-child(2) {
     margin-bottom: 0;
 }
+*/
 
 article > ol:last-child,
 article > ul:last-child {
