@@ -1,7 +1,7 @@
 <div>
     <span>{{T "tags"}}:</span>
     {{range .Params.tags}}
-        <a href="/tags/{{. | urlize}}" class="tag">
+        <a href="/{{T "tags"}}/{{. | urlize}}" class="tag">
             {{- . -}}
         </a>
     {{end}}

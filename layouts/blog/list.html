@@ -2,7 +2,7 @@
     <section class="container">
         <h2>{{T "resources in this category"}}</h2>
         <div class="grid grid-tablet-2 grid-desktop-4">
-            {{range first 4 .Pages}}
+            {{range .Pages}}
                 {{ .Render "card--article" }}
             {{end}}
         </div>
