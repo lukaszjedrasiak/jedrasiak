@@ -12,7 +12,7 @@ publishDate: 2023-08-15
 ---
 **If you're searching for a name for your side project, use AI tools to generate ideas.**
 <!--more-->
-{{<image src="generating-ideas-for-a-company-name.webp" caption="generowanie pomysłów na nazwę firmy" displayCaption="false">}}
+{{<image src="generating-ideas-for-a-company-name.webp" caption="generating ideas for a company name" displayCaption="false">}}
 
 I came up with the name SVAROZYC in 2019 (I wrote about it in a post titled [meet svarozyc](/blog/meet-svarozyc/)). I regret that Chat GPT wasn't available back then, as I now see its imperfections. But I won't change it – in the meantime, I've registered it as a trademark and fallen into the sunk cost fallacy.
 

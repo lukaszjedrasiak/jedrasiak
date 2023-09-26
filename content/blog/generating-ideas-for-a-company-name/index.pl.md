@@ -1,6 +1,6 @@
 ---
 title: "generowanie pomysłów na nazwę firmy"
-url: "blog/generowanie-pomyslow-na-nazwe-firmy"
+url: "blog/generowanie-pomyslow-na-nazwe-firmy/"
 tags:
 - svarozyc
 image:
