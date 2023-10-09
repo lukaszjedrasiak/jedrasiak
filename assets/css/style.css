@@ -127,7 +127,8 @@ p:last-child {
     margin-bottom: 0;
 }
 
-p+ul {
+p+ul,
+p+ol {
     margin-top: -1.5rem;
 }
 
@@ -138,6 +139,10 @@ svg {
 ol,
 ul {
     margin: 1.5rem 0;
+}
+
+hr {
+    margin-bottom: 1.5rem;
 }
 
 /*

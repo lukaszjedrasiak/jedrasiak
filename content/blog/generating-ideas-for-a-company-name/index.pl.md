@@ -15,7 +15,7 @@ publishDate: 2023-08-15
 <!--more-->
 {{<image src="generating-ideas-for-a-company-name.webp" caption="generowanie pomysłów na nazwę firmy" displayCaption="false">}}
 
-Nazwę SVAROZYC wymyśliłem jeszcze w 2019 r. (pisałem o tym w poście pt. [poznaj svarozyca](/blog/poznaj-svarozyca)). Żałuję, że wtedy nie było jeszcze Chata GPT, ponieważ teraz widzę jej pewne niedoskonałości. Ale nie będę jej już zmieniał – w międzyczaie zarejestrowałem znak towarowy i wpadłem w pułapkę poniesionych kosztów.
+Nazwę SVAROZYC wymyśliłem jeszcze w 2019 r. (pisałem o tym w poście pt. [poznaj svarozyca](/blog/poznaj-svarozyca/)). Żałuję, że wtedy nie było jeszcze Chata GPT, ponieważ teraz widzę jej pewne niedoskonałości. Ale nie będę jej już zmieniał – w międzyczaie zarejestrowałem znak towarowy i wpadłem w pułapkę poniesionych kosztów.
 
 Teraz do stworzenia listy pomysłów na nazwę dla projektu pobocznego wykorzystałbym sztuczną inteligencję. Aktualnie dostępne modele językowe dobrze nadają się do tego celu. Możesz skorzystać z jednej z dedykowanych aplikacji, które w ostatnim czasie rosną jak grzyby po deszczu. W dużej części korzystają one jednak z silnika od OpenAI, więc więcej sensu moim zdaniem ma użycie bezpośrednio modelu GPT.
 
