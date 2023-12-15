@@ -529,14 +529,15 @@ aside#meta {
 
 /* KATEX */
 .katex {
-    font: normal 1.125rem KaTeX_Main,Times New Roman,serif;
-    line-height: 1.333333;
+    font: normal 1.125rem KaTeX_Main,Times New Roman,serif !important;
+    line-height: 1.333333 !important;
 }
 
 .katex-display {
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 !important;
     max-width: 100%;
     overflow-x: auto;
+    display: inline !important;
 }
 
 /* TABLE */

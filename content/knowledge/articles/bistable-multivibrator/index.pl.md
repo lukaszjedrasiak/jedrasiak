@@ -14,6 +14,10 @@ image:
     width: 96
 readMore: true
 publishDate: 2020-12-27
+customCSS:
+- katex.css
+customJS:
+- katex.js
 ---
 **Multiwibrator dwustanowy (przerzutnik) bistabilny to układ elektroniczny, który pozwala na manualne wygenerowanie na wyjściu sygnału prostokątnego.**
 <!--more-->

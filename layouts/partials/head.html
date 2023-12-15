@@ -5,15 +5,15 @@
 {{$normalize := resources.Get "/css/normalize.css" | resources.Minify | resources.Fingerprint}}
 {{$style := resources.Get "/css/style.css" | resources.Minify | resources.Fingerprint}}
 {{$lightbox := resources.Get "/css/lightbox.min.css" | resources.Fingerprint}}
-{{$katex := resources.Get "/css/katex.min.css" | resources.Fingerprint}}
 <link rel="stylesheet" href="{{$normalize.RelPermalink}}">
 <link rel="stylesheet" href="{{$lightbox.RelPermalink}}">
-<link rel="stylesheet" href="{{$katex.RelPermalink}}">
 <link rel="stylesheet" href="{{$style.RelPermalink}}">
 {{with .Params.customCSS}}
-    {{$path := printf "/css/%s" . }}
-    {{$custom := resources.Get $path | resources.Minify | resources.Fingerprint}}
-    <link rel="stylesheet" href="{{$custom.RelPermalink}}">
+    {{range .}}
+        {{$path := printf "/css/%s" . }}
+        {{$custom := resources.Get $path | resources.Minify | resources.Fingerprint}}
+        <link rel="stylesheet" href="{{$custom.RelPermalink}}">
+    {{end}}
 {{end}}
 
 {{- if .IsTranslated -}}
