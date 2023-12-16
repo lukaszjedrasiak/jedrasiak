@@ -1,5 +1,7 @@
 ---
 title: "generating ideas for a company name"
+categories:
+- post
 tags:
 - svarozyc
 image:

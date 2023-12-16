@@ -1,0 +1,35 @@
+.breadcrumbs {
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 1.125rem;
+    line-height: 1.33333333;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumbs--desktop {
+    display: none;
+}
+
+.breadcrumbs--mobile {
+    display: flex;
+}
+
+.breadcrumbs--desktop li+li::before {
+    content: "/";
+    margin: 0 0.75rem;
+}
+
+.breadcrumbs--mobile li::before {
+    content: "< ";
+}
+
+@media screen and (min-width: $desktop) {
+    .breadcrumbs--mobile {
+        display: none;
+    }
+
+    .breadcrumbs--desktop {
+        display: flex;
+    }
+}

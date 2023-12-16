@@ -1,5 +1,7 @@
 ---
 title: the first ingredient for a successful side project – passion
+categories:
+- post
 tags:
 - svarozyc
 image:

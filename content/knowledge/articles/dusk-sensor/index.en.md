@@ -12,6 +12,10 @@ image:
     width: 96
 readMore: true
 publishDate: 2020-12-06
+customCSS:
+- katex.css
+customJS:
+- katex.js
 ---
 **A dusk sensor is a circuit that is designed to perform a planned action (e.g. turning on an LED) when the light intensity drops to a specific level.**
 <!--more-->

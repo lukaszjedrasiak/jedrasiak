@@ -1,5 +1,7 @@
 ---
 title: "set your individual goals"
+categories:
+- post
 tags:
 - svarozyc
 image:

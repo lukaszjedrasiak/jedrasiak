@@ -1,0 +1,59 @@
+.row--article {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row--article div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.row--article .tag::after {
+    content: ", "
+}
+
+.row--article .tag:last-child::after {
+    content: "";
+}
+
+.row--article .right,
+.row--article .divider {
+    display: none;
+}
+
+.row--article .right {
+    flex-grow: 0;
+}
+
+.row--article .left {
+    flex-grow: 2;
+}
+
+@media screen and (min-width: $tablet) {
+    .row--article .left {
+        flex-direction: row;
+    }
+
+    .row--article .divider {
+        display: initial;
+    } 
+}
+
+@media screen and (min-width: $desktop) {
+    .row--article,
+    .row--article div {
+        flex-direction: row;
+    }
+    
+    .row--article .right {
+        display: inherit;
+    }
+    .row--article .divider {
+        display: initial;
+    }
+
+}

@@ -1,6 +1,8 @@
 ---
 title: "pierwszy składnik udanego projektu pobocznego – pasja"
 url: "blog/pierwszy-skladnik-udanego-projektu-pobocznego-pasja"
+categories:
+- post
 tags:
 - svarozyc
 image:

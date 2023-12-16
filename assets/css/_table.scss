@@ -1,0 +1,29 @@
+.table-wrapper {
+    overflow-x: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.table-wrapper.mono td,
+.table-wrapper.mono th {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: monospace;
+}
+
+td,
+th {
+    padding: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    height: 3rem;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+    text-align: left;
+}

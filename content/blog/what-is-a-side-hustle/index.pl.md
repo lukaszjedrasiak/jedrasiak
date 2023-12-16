@@ -1,6 +1,8 @@
 ---
 title: "co to jest projekt poboczny"
 url: "blog/co-to-jest-projekt-poboczny/"
+categories:
+- post
 tags:
 - svarozyc
 image:

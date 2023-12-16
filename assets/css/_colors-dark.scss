@@ -1,0 +1,115 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        color: var(--white-95);
+        background-color: var(--black-95);
+    }
+
+    /* LINKS */
+    a {
+        color: var(--blue-ondark);
+    }
+
+    a.current {
+        color: var(--green-ondark);
+    }
+
+    a:hover {
+        color: var(--yellow-ondark);
+    }
+
+    blockquote {
+        border-left: 4px solid var(--magenta-ondark);
+    }
+
+    /* NAVBAR */
+    body > header {
+        background-color: var(--black-90);
+    }
+
+    body > header > .logo svg {
+        fill: var(--white-95);
+    }
+    
+    body > header > nav.mobile:hover > div {
+        background-color: var(--black-90);
+    }
+
+    body > header > nav.mobile > div > div {
+        border-top: 1px solid var(--black-95);
+    }
+
+    /* FOOTER */
+    footer > div {
+        border-top: 1px dashed var(--white-95);
+    }
+
+    footer a {
+        color: var(--white-95);
+    }
+
+    /* META */
+    #meta {
+        background-color: var(--black-90);
+    }
+
+    /* TABLE */
+    tr {
+        border-bottom: 1px solid var(--black-65);
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: var(--black-90);
+    }
+
+    /* CARD--ARTICLE */
+    .card--article {
+        background-color: var(--black-90);
+        border: 1px solid var(--black-90);
+    }
+
+    .card--article > .image {
+        background-color: var(--black-95);
+    }
+
+    /* CARD--ICON */
+    .card--icon {
+        background-color: var(--black-90);
+    }
+
+    .card--icon a svg {
+        fill: var(--blue-ondark);
+    }
+
+    .card--icon a svg:hover {
+        fill: var(--yellow-ondark);
+    }
+
+    /* CARD--ROW */
+    .row--article {
+        background-color: var(--black-90);
+    }
+
+    /* CARD--ABOUTME */
+    #aboutme--desc {
+        background-color: var(--black-90);
+    }
+
+    /* CARD--SINGLE SVG */
+    .card--singlesvg {
+        background-color: var(--black-90);
+    }
+
+    /* CARD--COURSE */
+    .card--course {
+        background-color: var(--black-90);
+    }
+
+    /* CARD--PERFORMANCE */
+    .card--performance {
+        background-color: var(--black-90);
+    }
+
+    .card--performance p:last-child {
+        color: var(--green-ondark);
+    }
+}

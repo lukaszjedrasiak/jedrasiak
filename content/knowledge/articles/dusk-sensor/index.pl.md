@@ -13,6 +13,10 @@ image:
     width: 96
 readMore: true
 publishDate: 2020-12-06
+customCSS:
+- katex.css
+customJS:
+- katex.js
 ---
 **Czujnik zmierzchu to układ, który ma wykonać zaplanowane działanie (np. zaświecenie diody) w momencie spadku natężenia światła do określonego poziomu.**
 <!--more-->

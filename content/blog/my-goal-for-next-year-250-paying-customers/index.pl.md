@@ -1,6 +1,8 @@
 ---
 title: "mój cel na przyszły rok – 250 płacących klientów"
 url: "blog/moj-cel-na-przyszly-rok-250-placacych-klientow"
+categories:
+- post
 tags:
 - svarozyc
 image:

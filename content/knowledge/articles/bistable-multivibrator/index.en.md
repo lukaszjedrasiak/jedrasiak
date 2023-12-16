@@ -11,7 +11,11 @@ image:
     height: 96
     width: 96
 readMore: true
-publishDate: 2020-12-27
+publishDate: 2020-12-28
+customCSS:
+- katex.css
+customJS:
+- katex.js
 ---
 **A bistable multivibrator (flip-flop) is an electronic circuit that allows for manual generation of a square wave signal at the output.**
 <!--more-->
@@ -29,7 +33,7 @@ Admittedly, generating a useful control signal by manually switching the inputs 
 {{<image src="bistable-multivibrator-20201227-scheme.webp" caption="Bistable multivibrator – schematic">}}
 {{<image src="bistable-multivibrator-20201227-photo.webp" caption="Bistable multivibrator  photo">}}
 
-## Bistable multivibrator – operation description
+## Bistable multivibrator – description
 
 ### Circuit outputs
 

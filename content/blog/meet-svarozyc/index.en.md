@@ -1,5 +1,7 @@
 ---
 title: "meet svarozyc"
+categories:
+- post
 tags:
 - svarozyc
 image:

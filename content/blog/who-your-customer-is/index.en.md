@@ -1,5 +1,7 @@
 ---
 title: "who your customer is"
+categories:
+- post
 tags:
 - svarozyc
 image:

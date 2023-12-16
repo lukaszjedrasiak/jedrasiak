@@ -1,6 +1,8 @@
 ---
 title: "poznaj svarozyca"
 url: "blog/poznaj-svarozyca/"
+categories:
+- post
 tags:
 - svarozyc
 image:

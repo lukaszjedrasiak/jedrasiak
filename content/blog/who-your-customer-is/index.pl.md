@@ -1,6 +1,8 @@
 ---
 title: "kim jest twój klient"
 url: "blog/kim-jest-twoj-klient"
+categories:
+- post
 tags:
 - svarozyc
 image:

@@ -1,0 +1,61 @@
+body > header {
+    font-family: monospace;
+    font-size: 1.125rem;
+    line-height: 1.33333333;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+    padding: 0 1.5rem;
+}
+
+
+body > header > nav {
+    display: flex;
+    align-items: center;
+}
+
+body > header > nav.desktop {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    display: none;
+}
+
+body > header > nav.mobile {
+    cursor: pointer;
+    height: 100%;
+}
+
+body > header > nav.mobile > div {
+    display: none;
+    position: absolute;
+    top: calc(4.5rem);
+    left: 0;
+    z-index: 100;
+}
+
+body > header > nav.mobile:hover > div {
+    display: block;
+    width: 100%;
+}
+
+body > header > nav.mobile > div > div {
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+body > header > nav a {
+    color: var(--svarozyc--white-90);
+}
+
+@media screen and (min-width: 1389px) {
+    body > header > nav.mobile {
+        display: none;
+    }
+    
+    body > header > nav.desktop {
+        display: flex;
+    }
+}

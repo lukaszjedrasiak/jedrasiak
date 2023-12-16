@@ -1,5 +1,7 @@
 ---
 title: "personal brand or business brand"
+categories:
+- post
 tags:
 - svarozyc
 image:
