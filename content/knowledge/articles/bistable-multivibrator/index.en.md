@@ -33,7 +33,7 @@ Admittedly, generating a useful control signal by manually switching the inputs 
 {{<image src="bistable-multivibrator-20201227-scheme.webp" caption="Bistable multivibrator – schematic">}}
 {{<image src="bistable-multivibrator-20201227-photo.webp" caption="Bistable multivibrator  photo">}}
 
-## Bistable multivibrator – operation description
+## Bistable multivibrator – description
 
 ### Circuit outputs
 
