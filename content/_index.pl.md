@@ -2,10 +2,10 @@
 title: "łukasz jędrasiak"
 shortTitle: "strona główna"
 headtitle: "no-code / low-code developer"
-subtitle: "no-code / low-code developer • automatyzacja procesów biznesowych"
-summary: "Łukasz Jędrasiak – no-code / low-code developer. Moja specjalizacja to automatyzacja procesów biznesowych, głównie w obszarze digital marketingu."
+subtitle: "no-code / low-code developer • AI developer • prompt engineer"
+summary: "Łukasz Jędrasiak – no-code / low-code developer. Specjalizuję się w automatyzacji procesów biznesowych z użyciem sztucznej inteligencji (SI)."
 ---
 
-Cześć, z tej strony Łukasz Jędrasiak – no-code / low-code developer. Moja specjalizacja to automatyzacja procesów biznesowych, głównie w obszarze digital marketingu.
+Cześć, z tej strony Łukasz Jędrasiak – no-code / low-code developer. Specjalizuję się w automatyzacji procesów biznesowych z użyciem sztucznej inteligencji.
 
-W wolnym czasie buduję robota o otwartej architekturze (open source / open hardware) sterowanego przy użyciu AI.
+W wolnym czasie buduję robota edukacyjnego do nauki programowania, robotyki i SI.
