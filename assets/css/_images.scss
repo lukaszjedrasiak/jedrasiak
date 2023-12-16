@@ -1,0 +1,37 @@
+svg {
+    display: block;
+}
+
+figure {
+    margin: 1.5rem 0;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+figure figcaption {
+    margin: 0.75rem auto;
+    text-align: center;
+    font-style: italic;
+}
+
+/* IMAGE IN PROJECT PAGES */
+#project > div:nth-child(1) {
+    min-height: 528px;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    border-radius: 0.5rem;
+}
+
+#project > div:nth-child(1):hover {
+    filter: grayscale(0);
+}
+
+#project img {
+    max-width: 100%;
+    height: auto;
+}

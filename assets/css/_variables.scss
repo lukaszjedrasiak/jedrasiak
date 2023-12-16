@@ -1,0 +1,36 @@
+/*
+$tablet: 766px;
+$desktop: 1389px;
+*/
+
+$tablet: 600px;
+$desktop: 840px;
+
+:root {
+    --black-95: #0D0D0D;
+    --black-90: #1A1A1A;
+    --black-75: #404040;
+    --black-65: #595959;
+    --white-65: #A6A6A6;
+    --white-75: #BFBFBF;
+    --white-90: #E6E6E6;
+    --white-95: #F2F2F2;
+
+    --red-ondark: #E64C4C;
+    --yellow-ondark: #C06E1B;
+    --olive-ondark: #868613;
+    --green-ondark: #549315;
+    --cyan-ondark: #159393;
+    --blue-ondark: #2985E0;
+    --violet-ondark: #7575EB;
+    --magenta-ondark: #A663E9;
+
+    --red-onlight: #D61F1F;
+    --yellow-onlight: #A15C17;
+    --olive-onlight: #707010;
+    --green-onlight: #457811;
+    --cyan-onlight: #117878;
+    --blue-onlight: #1C70C4;
+    --violet-onlight: #5A5AE7;
+    --magenta-onlight: #913FE4;
+}

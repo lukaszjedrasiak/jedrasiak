@@ -3,11 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 {{$normalize := resources.Get "/css/normalize.css" | resources.Minify | resources.Fingerprint}}
-{{$style := resources.Get "/css/style.css" | resources.Minify | resources.Fingerprint}}
 {{$lightbox := resources.Get "/css/lightbox.min.css" | resources.Fingerprint}}
+{{$main := resources.GetMatch "/css/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint}}
 <link rel="stylesheet" href="{{$normalize.RelPermalink}}">
 <link rel="stylesheet" href="{{$lightbox.RelPermalink}}">
-<link rel="stylesheet" href="{{$style.RelPermalink}}">
+<link rel="stylesheet" href="{{$main.RelPermalink}}">
 {{with .Params.customCSS}}
     {{range .}}
         {{$path := printf "/css/%s" . }}

@@ -1,0 +1,41 @@
+@import "variables.scss";
+@import "typography.scss";
+@import "colors-dark.scss";
+@import "colors-light.scss";
+@import "layout.scss";
+
+
+@import "hero.scss";
+@import "breadcrumbs.scss";
+@import "blockquote.scss";
+@import "navbar.scss";
+@import "footer.scss";
+@import "meta.scss";
+@import "images.scss";
+@import "katex.scss";
+@import "table.scss";
+@import "miscellaneous.scss";
+
+@import "card--article.scss";
+@import "card--icon.scss";
+@import "card--row.scss";
+@import "card--aboutme.scss";
+@import "card--singlesvg.scss";
+@import "card--course.scss";
+@import "card--performance.scss";
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+main {
+    padding: 0 1.5rem;
+}

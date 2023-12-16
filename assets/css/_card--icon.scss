@@ -1,0 +1,11 @@
+.card--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.card--icon a svg {
+    height: 48px;
+}

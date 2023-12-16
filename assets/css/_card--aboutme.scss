@@ -1,0 +1,22 @@
+#aboutme--image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutme--image img {
+    max-width: 128px;
+    border-radius: 0.5rem;
+}
+
+#aboutme--desc {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (min-width: $desktop) {
+    #aboutme--desc {
+        grid-column: 2 / 7;
+    }
+}
