@@ -1,8 +1,10 @@
 <div class="row--article">
     <div class="left">
         <a href="{{.RelPermalink}}">{{.Params.shortTitle | default .Title}}</a>
-        <span class="divider">|</span>
-        <span>{{.Params.subtitle}}</span>
+        {{with .Params.subtitle}}
+            <span class="divider">|</span>
+            <span>{{.}}</span>
+        {{end}}
     </div>
 
     <div class="right">
