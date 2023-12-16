@@ -1,6 +1,8 @@
 ---
 title: "Jeśli nie możesz ich pokonać, dołącz do nich"
 url: blog/jesli-nie-mozesz-ich-pokonac-dolacz-do-nich/
+categories:
+- post
 tags:
 - svarozyc
 image:

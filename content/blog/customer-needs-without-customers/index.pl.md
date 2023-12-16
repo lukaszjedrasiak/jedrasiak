@@ -1,6 +1,8 @@
 ---
 title: "jak poznać potrzeby klientów bez klientów"
 url: "blog/jak-poznac-potrzeby-klientow-bez-klientow"
+categories:
+- post
 tags:
 - svarozyc
 image:

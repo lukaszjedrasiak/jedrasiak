@@ -1,6 +1,8 @@
 ---
 title: "wstępny model biznesowy"
 url: "blog/wstepny-model-biznesowy/"
+categories:
+- post
 tags:
 - svarozyc
 image:

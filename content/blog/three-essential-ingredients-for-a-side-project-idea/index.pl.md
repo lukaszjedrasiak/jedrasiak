@@ -1,6 +1,8 @@
 ---
 title: trzy niezbędne składniki pomysłu na projekt poboczny
 url: "blog/trzy-niezbedne-skladniki-pomyslu-na-projekt-poboczny/"
+categories:
+- post
 tags:
 - svarozyc
 image: 

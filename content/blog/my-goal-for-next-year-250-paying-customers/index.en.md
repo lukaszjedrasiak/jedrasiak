@@ -1,5 +1,7 @@
 ---
 title: "my goal for next year – 250 paying customers"
+categories:
+- post
 tags:
 - svarozyc
 image:

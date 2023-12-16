@@ -1,6 +1,8 @@
 ---
 title: "marka osobista czy marka biznesowa"
 url: "blog/marka-osobista-czy-marka-biznesowa/"
+categories:
+- post
 tags:
 - svarozyc
 image:

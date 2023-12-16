@@ -1,5 +1,7 @@
 ---
 title: "how to identify customer needs without having customers"
+categories:
+- post
 tags:
 - svarozyc
 image:

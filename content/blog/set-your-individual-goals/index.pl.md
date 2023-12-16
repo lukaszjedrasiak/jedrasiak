@@ -1,6 +1,8 @@
 ---
 title: "ustal swoje cele"
 url: "blog/ustal-swoje-cele/"
+categories:
+- post
 tags:
 - svarozyc
 image:

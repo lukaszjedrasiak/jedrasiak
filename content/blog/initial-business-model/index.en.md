@@ -1,5 +1,7 @@
 ---
 title: "initial business model"
+categories:
+- post
 tags:
 - svarozyc
 image:

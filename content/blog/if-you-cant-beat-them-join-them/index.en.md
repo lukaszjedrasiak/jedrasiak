@@ -1,5 +1,7 @@
 ---
 title: "If you can't beat them, join them"
+categories:
+- post
 tags:
 - svarozyc
 image:

@@ -1,5 +1,7 @@
 ---
 title: three essential ingredients for a side project idea
+categories:
+- post
 tags:
 - svarozyc
 image: 

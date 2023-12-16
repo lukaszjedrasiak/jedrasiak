@@ -1,5 +1,7 @@
 ---
 title: "what is a side hustle"
+categories:
+- post
 tags:
 - svarozyc
 image:
